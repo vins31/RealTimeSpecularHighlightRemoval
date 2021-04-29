@@ -1,4 +1,4 @@
-#include "SpecularHighlightRemoval\Clustering.h"
+#include "SpecularHighlightRemoval/Clustering.h"
 
 thrust::device_vector<float> thrustMinImage;
 thrust::device_vector<float> thrustMaxImage;

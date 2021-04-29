@@ -1,10 +1,10 @@
 #ifndef SPECULAR_HIGHLIGHT_REMOVAL_H
 #define SPECULAR_HIGHLIGHT_REMOVAL_H
 
-#include <opencv2\opencv.hpp>
+#include <opencv2/opencv.hpp>
 #include "useCUDA.h"
 #ifdef REMOVE_SPECULAR_HIGHLIGHT_USING_CUDA
-#include <opencv2\gpu\gpu.hpp>
+#include <opencv2/gpu/gpu.hpp>
 #include <cuda_runtime_api.h>
 #include "ColorProcessing.h"
 #include "Clustering.h"

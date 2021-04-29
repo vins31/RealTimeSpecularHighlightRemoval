@@ -1,4 +1,4 @@
-#include "SpecularHighlightRemoval\ColorProcessing.h"
+#include "SpecularHighlightRemoval/ColorProcessing.h"
 
 thrust::device_vector<float> thrustRatio;	
 thrust::device_vector<float> thrustCompressedRatio;
